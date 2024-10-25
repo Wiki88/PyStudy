@@ -5,8 +5,8 @@ not_primes = []
 is_prime = True
 
 for i in numbers :
-    for g in range (2 , i):
-        if i % g == 0 :
+    for j in range (2 , i):
+        if i % j == 0 :
             is_prime = False
             not_primes.append(i)
             break
