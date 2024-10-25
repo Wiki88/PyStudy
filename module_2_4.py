@@ -4,7 +4,7 @@ primes = []
 not_primes = []
 is_prime = True
 
-for i in range (2, len(numbers) + 1):
+for i in numbers :
     for g in range (2 , i):
         if i % g == 0 :
             is_prime = False
@@ -12,5 +12,8 @@ for i in range (2, len(numbers) + 1):
             break
     else:
         primes.append(i)
+    for i in primes:
+        if i == 1:
+            primes.remove(i)
 print(primes)
 print(not_primes)
