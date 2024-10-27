@@ -12,8 +12,7 @@ for i in numbers :
             break
     else:
         primes.append(i)
-    for i in primes:
-        if i == 1:
+        if i < 2:
             primes.remove(i)
 print(primes)
 print(not_primes)
