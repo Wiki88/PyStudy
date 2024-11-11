@@ -1,3 +1,4 @@
+#Too ancient cipher. Слишком древний шифр. v3
 def gen_pass(n):
     result = ""
     for i in range(1,21):
