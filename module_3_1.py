@@ -10,7 +10,7 @@ def count_calls(func):
 
 @count_calls
 def string_info(string):
-    print((len(string), string.upper(), string.lower()))
+    return((len(string), string.upper(), string.lower()))
 
 
 @count_calls
