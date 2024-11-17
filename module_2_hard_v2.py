@@ -15,5 +15,5 @@ def gen_pass(n):
     return result
 n = cipher()
 if 3 <= n <= 20:
-    set = gen_pass(n)
-    print('Случайное число' , n , 'Пароль', set)
+    inset = gen_pass(n)
+    print('Случайное число' , n , 'Пароль', inset)
