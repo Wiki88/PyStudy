@@ -1,4 +1,4 @@
-# Магические здания. Magic bildings
+# Магические здания. Magic buildings
 
 class House():
     def __init__(self, name, number_of_floors):
