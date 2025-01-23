@@ -14,7 +14,7 @@ class House():
         return False
 
     def __str__(self):
-        return f'{self.name}, кол-во этажей {self.number_of_floors}'
+        return f' Название: {self.name}, кол-во этажей {self.number_of_floors}'
 
     def __len__(self):
         return self.number_of_floors
